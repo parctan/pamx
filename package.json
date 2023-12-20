@@ -1,0 +1,22 @@
+{
+  "name": "pamx",
+  "description": "Extended toolchain for Project Arrhythmia assets",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parctan/pamx.git"
+  },
+  "keywords": [
+    "pa",
+    "pamx",
+    "project arrhythmia",
+    "vg",
+    "vitamin games"
+  ],
+  "author": "Parctan (https://parctan.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parctan/pamx/issues"
+  },
+  "homepage": "https://github.com/parctan/pamx"
+}
