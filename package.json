@@ -2,21 +2,33 @@
   "name": "pamx",
   "description": "Extended toolchain for Project Arrhythmia assets",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/parctan/pamx.git"
+  },
+  "scripts": {
+    "release": "changeset publish"
   },
   "keywords": [
     "pa",
     "pamx",
     "project arrhythmia",
     "vg",
-    "vitamin games"
+    "vitamin games",
+    "lsp",
+    "vgd"
   ],
   "author": "Parctan (https://parctan.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/parctan/pamx/issues"
   },
-  "homepage": "https://github.com/parctan/pamx"
+  "homepage": "https://github.com/parctan/pamx",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@svitejs/changesets-changelog-github-compact": "^1.1.0"
+  }
 }
